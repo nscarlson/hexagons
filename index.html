@@ -80,7 +80,6 @@
     function mousemove(d) {
         if (mousing) {
             d3.select(this).classed("fill", d.fill = mousing > 0);
-            border.call(redraw);
         }
     }
 
